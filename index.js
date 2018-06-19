@@ -19,6 +19,6 @@ const fareDoubler = createFareMultiplier(2)
 
 const fareTripler = createFareMultiplier(3)
 
-const selectDifferentDrivers = (array, thisFunction) {
+const selectDifferentDrivers = function (array, thisFunction) {
   thisFunction(array)
 }
